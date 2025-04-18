@@ -10,7 +10,7 @@ terraform {
     bucket         = "dev-aman-tf-bucket"
     region         = "ap-south-1"
     key            = "eks/terraform.tfstate"
-    use_lockfile = "Lock-Files"
+    use_lockfile = true
     encrypt        = true
   }
 }
