@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "dev-aman-tf-bucket"
+    bucket         = "dev-aman-tf-bucket3"
     region         = "ap-south-1"
     key            = "eks/terraform.tfstate"
     use_lockfile = true
